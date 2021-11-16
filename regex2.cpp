@@ -32,7 +32,7 @@ int matching(string s, string p)
   }
   return F[s.size() - 1][p.size() - 1];
 }
-int main()
+int regex()
 {
   string s = "abab";
   string p = "*?*ab";

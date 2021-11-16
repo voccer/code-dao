@@ -29,7 +29,7 @@ int longest_substring(string s)
   }
   return maxx;
 }
-int main()
+int longest_substring()
 {
   string s = "a1234asdf";
   int maxx = longest_substring(s);

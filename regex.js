@@ -4,7 +4,7 @@ function solve(s, p) {
     .split('*')
     .map((v) => v.split(''))
     .filter((v) => v.length)
-  
+
   for (let i = 1; i < cut.length; i++) {
     while (cut[i][0] === cut[i - 1][cut[i - 1].length - 1]) {
       cut[i].splice(0, 1)
